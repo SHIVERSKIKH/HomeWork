@@ -8,8 +8,8 @@ void ShowNumber(int n)
     ShowNumber(n - 1);
 }
 Console.Write("Input a number N: ");
-int N = Convert.ToInt32(Console.ReadLine());
-ShowNumber(N);
+int n = Convert.ToInt32(Console.ReadLine());
+ShowNumber(n);
 */
 //Задача 66: Задайте значения M и N.
 //Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
@@ -20,10 +20,10 @@ int SumNumber(int m, int n)
     return n + SumNumber(m, n - 1);
 }
 Console.Write("Input a number M: ");
-int M = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a number N: ");
-int N = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Summa elements  {M} do {N} = {SumNumber(M, N)}");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Summa elements  {m} do {n} = {SumNumber(m, n)}");
 */
 //Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии.
 //Даны два неотрицательных числа m и n.
